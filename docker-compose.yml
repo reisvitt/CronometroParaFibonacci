@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  web:
+    image: php:7.2.2-apache
+    container_name: php_fibonacci
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - "8101:80"
+    security_opt:
+      - apparmor:unconfined
+    stdin_open: true
+    tty: true
+

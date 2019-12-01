@@ -1,0 +1,71 @@
+
+.container{
+  display: flex;
+  flex: inherit;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;  
+  font-size: 14px;
+  
+}
+
+h3 {
+  background-color: #D9EDF7;  
+  color: #286090;
+  margin: 0px;
+  padding: 12px; 
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.painel{
+  width: 47%;
+  max-width: 47%;
+  min-width: 250px;
+  border: 1px solid #286090 ;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.conteudo{
+  margin: 10px;
+}
+
+
+button {
+  width: 120px;
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid #286090;
+  border-radius: 5px;
+}
+
+input {
+  max-width: 300px;
+  min-width: 100px;
+
+  border: 2px solid #286090;
+  border-radius: 5px;
+  padding: 5px;
+  margin-inline: 5px;
+  
+}
+
+.calculo {
+  margin: 10px;
+  display: flex;
+}
+
+.error{
+  padding-left: 10px;
+  color: red;
+  font-size: 12px;
+}
+
+td {
+  padding-left: 10px;
+  padding-top: 5px;
+  min-width: 150px;
+}
